@@ -94,7 +94,7 @@ package
 		
 		private function replaySound():void
 		{
-			var sound:Sound = (new Assets.SOUND_NATIVE_RAINFALL) as Sound;
+			var sound:Sound = (new Assets.SOUND_NEPTUNE) as Sound;
 			sound.play();
 			setTimeout(replaySound, sound.length);
 		}
