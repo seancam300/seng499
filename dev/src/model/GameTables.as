@@ -10,8 +10,7 @@ package model
 	 * @author Lambwatt
 	 */
 	public class GameTables 
-	{			private var chince:int = 0;
-				public var apples:int = 2;
+	{
 		
 		
                 // Ugggh.
@@ -20,30 +19,11 @@ package model
                 instruments.push(
 
                     InstrumentProperties.describe("Node")
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 						.displayDescription("A node is a central hub of communication between NEPTUNE instruments.")
                         .image(Assets.IMG_NODE)
 						.storeImage(Assets.IMG_STORE_NODE)
                         .isNode
-						.costs(500000)
-						.hatsize(50)
-						.size(100)
+						.costs(45000)
                         .finish(),
 						
 					InstrumentProperties.describe("Hydraphone")
@@ -90,8 +70,8 @@ package model
 						.storeImage(Assets.IMG_INSTRUMENT_IMAGE)
 						.producesDataOnAllTerrain
 						.produces(DataTypes.PROFILES)
-						.costs(400000)
-						.dataValue(10)
+						.costs(100000)
+						.dataValue(1)
                         .finish()
                 );
 				
